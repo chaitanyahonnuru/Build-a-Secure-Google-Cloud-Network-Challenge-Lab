@@ -1,0 +1,12 @@
+Run the following Commands in CloudShell
+export IAP_NET_TAG=
+export INT_NET_TAG=
+export HTTP_NET_TAG=
+export ZONE=
+export REGION=
+
+curl -LO https://raw.githubusercontent.com/chaitanyahonnuru/Build-a-Secure-Google-Cloud-Network-Challenge-Lab/refs/heads/main/GSP322.sh
+
+sudo chmod +x GSP322.sh
+
+./GSP322.sh
